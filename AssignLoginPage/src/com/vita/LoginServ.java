@@ -27,6 +27,7 @@ public class LoginServ extends HttpServlet {
 	}
 
 	
+	// This the doPost Method for Checking the Db values and Enter value And redirect
 	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		String login=request.getParameter("login");
 		String pass=request.getParameter("password");
